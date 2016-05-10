@@ -6,8 +6,8 @@
 		<link rel="icon" href="images/logo.png" />
 	
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
-		<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:400,700'>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/animatecss/3.5.1/animate.min.css">
 		<link rel="stylesheet" href="style.css">
 		
 		<title>Schaumburg Mazda</title>
@@ -16,15 +16,13 @@
 	<body>
 		<div class="container-fluid">
 		
-			<header class="row navbar-fixed-top">
-				<a href="#">
-					<div class="col-xs-1 col-md-1">
-						<img src="images/logo.png" />
-					</div>
-					<div class="col-xs-3 col-md-3">
-						<h4>Napleton's Schaumburg Mazda</h4>
-					</div>
-				</a>
+			<header class="navbar-fixed-top cbp-af-header">
+				<div class="col-xs-1 col-md-1">
+					<img src="images/logo.png" />
+				</div>
+				<div class="col-xs-3 col-md-3">
+					<h4>Napleton's Schaumburg Mazda</h4>
+				</div>
 				<div class="col-xs-6 col-md-6">
 					<ul>
 						<a href="#"><li>HOME</li></a>
@@ -44,7 +42,7 @@
 				</div>
 			</header>
 			
-			<div id="carousel" class="row carousel slide hero">
+			<section id="carousel" class="row carousel slide hero">
 			
 				<ol class="carousel-indicators">
 				
@@ -59,49 +57,70 @@
 				<div class="carousel-inner">
 					<div class="item active">
 						<a href="#"><img src="images/mx5.jpg" class="img-responsive" /></a>
+						<div class="carousel-caption">
+							<h3>DESIGN THAT INSPIRES THE SAME AS THE DRIVE.</h3>
+							<p>MAZDA MX-5 MIATA</p>
+						</div>
 					</div>
 					<div class="item">
 						<a href="#"><img src="images/m3.jpg" class="img-responsive" /></a>
+						<div class="carousel-caption" style="color:#000">
+						<h3>NAMED A CAR AND DRIVER "10BEST" THREE YEARS IN A ROW</h3>
+						<p>THE 2016 MAZDA3 4-DOOR</p>
+					</div>
 					</div>
 					<div class="item">
 						<a href="#"><img src="images/cx5.jpg" class="img-responsive" /></a>
+						<div class="carousel-caption" style="color:#000">
+							<h3>CONFIDENT DRIVING IS BETTER DRIVING.</h3>
+							<p>THE 2016 MAZDA CX-5</p>
+						</div>
 					</div>
 					<div class="item">
 						<a href="#"><img src="images/cx9.jpg" class="img-responsive" /></a>
+						<div class="carousel-caption">
+							<h3>INDULGE EVERY SENSE. INCLUDING COMMON SENSE.</h3>
+							<p>THE ALL-NEW 2016 MAZDA CX-9</p>
+						</div>
 					</div>
 					<div class="item">
 						<a href="#"><img src="images/m6.jpg" class="img-responsive" /></a>
+						<div class="carousel-caption">
+							<h3>PERFORMANCE, EFFICIENCY, EXCITEMENT.</h3>
+							<p>THE 2016 MAZDA6 WITH SKYACTIV<span id="symbol">&#174;</span> TECHNOLOGY</p>
+						</div>
 					</div>
-				</div>
 				
-				<a class="carousel-control left" href="#carousel" data-slide="prev">
-					<span class="icon-prev"></span>
-				</a>
-				<a class="carousel-control right" href="#carousel" data-slide="next">
-					<span class="icon-next"></span>
-				</a>
+					<a class="carousel-control left" href="#carousel" data-slide="prev">
+						<span class="icon-prev"></span>
+					</a>
+					<a class="carousel-control right" href="#carousel" data-slide="next">
+						<span class="icon-next"></span>
+					</a>
 			
-			</div>
+				</div>
+			</section>
 			
-			<div class="row text-center test">
+			<section class="row text-center test">
 				<div class="pull-left">
 					<h4>Come see our selection today!</h4>
 				</div>
 				<div class="pull-right">
 					<a href="#" id="test-drive"><button class="btn btn-danger">Schedule a Test Drive</button></a>
 				</div>
-			</div>
+			</section>
 			
-			<div class="showcase container">
+			<section class="showcase container">
+			
 				<h3 class="text-center">MAZDA VEHICLES</h3>
-				<div class="row">
+				<div class="row wow slideInUp">
 					<div class="col-xs-2 col-md-3">
 						<a href="#">
 							<img src="images/minim3.png" />
 							<h4>MAZDA3 4-DOOR</h4>
 							<h5>Starting at $17,845</h5>
-							<h6>Up to an EPA-est 41 hwy MPG</h6>
-							<h6>Seating for five</h6>
+							<p>Up to an EPA-est 41 hwy MPG</p>
+							<p>Seating for five</p>
 						</a>
 					</div>
 					<div class="col-xs-2 col-md-3">
@@ -109,8 +128,8 @@
 							<img src="images/minim3h.png" />
 							<h4>MAZDA3 5-DOOR</h4>
 							<h5>Starting at $18,545</h5>
-							<h6>Up to an EPA-est 40 hwy MPG</h6>
-							<h6>Seating for five</h6>
+							<p>Up to an EPA-est 40 hwy MPG</p>
+							<p>Seating for five</p>
 						</a>
 					</div>
 					<div class="col-xs-2 col-md-3">
@@ -118,8 +137,8 @@
 							<img src="images/minim6.png" />
 							<h4>MAZDA6</h4>
 							<h5>Starting at $21,495</h5>
-							<h6>Up to an EPA-est 40 hwy MPG</h6>
-							<h6>Seating for five</h6>
+							<p>Up to an EPA-est 40 hwy MPG</p>
+							<p>Seating for five</p>
 						</a>
 					</div>
 					<div class="col-xs-2 col-md-3">
@@ -127,19 +146,19 @@
 							<img src="images/minimx5.png" />
 							<h4>MAZDA MX-5 MIATA</h4>
 							<h5>Starting at $24,915</h5>
-							<h6>Up to an EPA-est 36 hwy MPG</h6>
-							<h6>Seating for two</h6>
+							<p>Up to an EPA-est 36 hwy MPG</p>
+							<p>Seating for two</p>
 						</a>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row wow slideInUp">
 					<div class="col-xs-2 col-md-3">
 						<a href="#">
 							<img src="images/minicx3.png" />
 							<h4>MAZDA CX-3</h4>
 							<h5>Starting at $19,960</h5>
-							<h6>Up to an EPA-est 35 hwy MPG</h6>
-							<h6>Seating for five</h6>
+							<p>Up to an EPA-est 35 hwy MPG</p>
+							<p>Seating for five</p>
 						</a>
 					</div>
 					<div class="col-xs-2 col-md-3">
@@ -147,20 +166,21 @@
 							<img src="images/minicx5.png" />
 							<h4>MAZDA CX-5</h4>
 							<h5>Starting at $21,795</h5>
-							<h6>Up to an EPA-est 35 hwy MPG</h6>
-							<h6>Seating for five</h6>
+							<p>Up to an EPA-est 35 hwy MPG</p>
+							<p>Seating for five</p>
 						</a>
 					</div>
 					<div class="col-xs-2 col-md-3">
 						<a href="#">
 							<img src="images/minicx9.png" />
 							<h4>MAZDA CX-9</h4>
-							<h6>Prototype shown</h6>
-							<h6>Available Summer 2016</h6>
+							<p>Prototype shown</p>
+							<p>Available Summer 2016</p>
 						</a>
 					</div>
 				</div>
-			</div>
+				
+			</section>
 			
 		</div>
 			
@@ -174,9 +194,11 @@
 			</div>
 		</footer>
 	
-	
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+		<script src="classie.js"></script>
+		<script src="cbpAnimatedHeader.min.js"></script>
 		<script src="script.js"></script>
 	</body>
 </html>
