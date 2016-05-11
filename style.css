@@ -9,16 +9,12 @@ body {
 .navbar-inverse .navbar-nav > li > a {
 	color:#bbb;
 }
-.navbar-header a {
-	color:#fff;
-	display:inline-block;
+.navbar-header img{
+	padding-right:15px;
 }
 .navbar-header a:hover {
 	color:#fff;
 	text-decoration:none;
-}
-.navbar-header img {
-	width:15%;
 }
 .navbar-header h1 {
 	font-size:20px;
@@ -28,11 +24,17 @@ body {
 	padding-bottom:10px;
 }
 .hero {
+	margin-top:111px;
 	position:relative;
 	background-size:100%;
 	background-repeat:no-repeat;
 	vertical-align:middle;
 	color:#fff;
+}
+@media (max-width:330px) {
+	.hero {
+		margin-top:161px;
+	}
 }
 .carousel-caption {
 	width:60%;
@@ -40,6 +42,11 @@ body {
 	top:0;
 	left:50%;
 	transform:translateX(-50%);
+}
+@media (max-width:630px) {
+	.carousel-caption h3, .carousel-caption p {
+		display:none
+	}
 }
 .carousel-caption span {
 	font-size:75%;
